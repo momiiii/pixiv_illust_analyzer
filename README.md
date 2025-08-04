@@ -6,7 +6,7 @@ Pixivの作品データを分析して、特定のタグと一緒によく使わ
 ## ✨ 特徴
 
 ### 🎯　バージョン
-- **🎨 イラスト版** (`pixiv_illust_analyzer.py`): Pixivイラスト専用の分析ツール
+(`pixiv_illust_analyzer.py`): Pixivイラスト専用の分析ツール
 
 ### 🔍 多様な検索方式
 - **タグ検索**: 作品に付けられたタグのみを検索（高精度）
@@ -122,15 +122,6 @@ pandas>=2.0.0
 取得件数: 200件
 ```
 
-### 小説分析の例
-
-```
-検索キーワード: "異世界 ファンタジー"
-検索方式: 全文検索
-言語フィルター: 有効
-取得件数: 300件
-```
-
 ### R18コンテンツの分析
 
 ```
@@ -168,23 +159,12 @@ pandas>=2.0.0
 **Q: 処理が途中で止まる**
 - A: デバッグ情報を確認してください。ネットワークエラーの場合は自動でリトライします。
 
-**Q: AI作品除外が効かない**
-- A: タグベースでの判定のため、完全ではありません。判定精度の向上は今後のアップデートで対応予定です。
-
 ### エラーコードと対処法
 
 - **429 Too Many Requests**: リクエスト制限。しばらく待ってから再実行
 - **401 Unauthorized**: 認証エラー。refresh_tokenを再取得
 - **Network Error**: ネットワーク接続を確認
 
-
-プロジェクトへの貢献を歓迎します！
-
-1. **Fork** このリポジトリ
-2. **Feature branch** を作成 (`git checkout -b feature/amazing-feature`)
-3. **Commit** 変更内容 (`git commit -m 'Add amazing feature'`)
-4. **Push** ブランチ (`git push origin feature/amazing-feature`)
-5. **Pull Request** を作成
 
 ### 開発ガイドライン
 
