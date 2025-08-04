@@ -2,9 +2,6 @@
 
 Pixivの作品データを分析して、特定のタグと一緒によく使われるタグを発見するStreamlitアプリケーションです。
 
-![Pixiv Tag Analysis Tool](https://img.shields.io/badge/Pixiv-Tag%20Analysis-ff6b9d?style=for-the-badge&logo=python&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3.8+-3776ab?style=for-the-badge&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
 ## ✨ 特徴
 
